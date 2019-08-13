@@ -22,6 +22,7 @@ import java.util.concurrent.Executors;
         2.创建一个类，实现Runnable接口，重写run方法，设置线程任务
         3.调用ExecutorService中的方法submit，传递线程任务（实现类），开启线程，执行run方法
         4.调用ExecutorService中的方法shutdown销毁线程池（不建议执行）
+add    新加了一行以作测试
 */
 public class Demo1ThreadPool {
     public static void main(String[] args) {
