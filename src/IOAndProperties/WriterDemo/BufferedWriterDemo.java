@@ -16,6 +16,7 @@ package IOAndProperties.WriterDemo;
         4.关闭资源
  */
 
+
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -28,6 +29,7 @@ public class BufferedWriterDemo {
             bw.write("something borrowed, something blue");
         } catch (IOException e) {
             e.printStackTrace();
+
         }
     }
 }
