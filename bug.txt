@@ -1,0 +1,3 @@
+bug1: div异常
+/ by zero
+ArithmeticException
